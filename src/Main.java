@@ -33,6 +33,6 @@ public class Main {
         }
 
         // Print the result
-        System.out.println("The result is: " + result);
+        System.out.println("The sum of"+num1+" and "+num2+" is: " + result);
     }
 }
