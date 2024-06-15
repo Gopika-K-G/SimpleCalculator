@@ -1,20 +1,14 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // Assign values to the variables
+        int num1 = 5;
+        int num2 = 6;
+        char operation = '*';
 
-        System.out.println("Enter first number:");
-        double num1 = scanner.nextDouble();
+        // Variable to store the result
+        int result;
 
-        System.out.println("Enter second number:");
-        double num2 = scanner.nextDouble();
-
-        System.out.println("Choose an operation: +, -, *, /");
-        char operation = scanner.next().charAt(0);
-
-        double result;
-
+        // Perform the operation based on the value of 'operation'
         switch (operation) {
             case '+':
                 result = num1 + num2;
@@ -38,6 +32,7 @@ public class Main {
                 return;
         }
 
+        // Print the result
         System.out.println("The result is: " + result);
     }
 }
